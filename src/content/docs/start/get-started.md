@@ -40,10 +40,14 @@ Click the **Overview** link at the top navigation in order to go to the home pag
 
 You’re presented with a form to collect info about the project to create. Enter a unique project name, and follow the info in the form to fill out the remaining details.
 
-> If you want to configure the Fly Postgres integration, save the project and go to the project settings. There you’ll find more options to configure how the project should be deployed
+:::tip
+If you want to configure the Fly Postgres integration, save the project and go to the project settings. There you’ll find more options to configure how the project should be deployed
+:::
 
 When you’re done, click the _Save_ button to save the project. Now that the project is saved, you’ll get automatic deployment whenever you push new changes to your production branch, or preview app deployment when you create pull requests.
 
-> Note that your repository needs to have _fly.toml_ either at the source directory path.
+:::note
+Your repository needs to have _fly.toml_ at the source directory path.
+:::
 
 Check the rest of the docs to find out things you can do with FlyCD. For example, read about how to view your deployment build logs.
