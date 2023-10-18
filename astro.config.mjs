@@ -6,6 +6,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "FlyCD",
+      editLink: {
+        baseUrl: "https://github.com/pmbanugo/flycd-docs/edit/main/",
+      },
       social: {
         twitter: "https://twitter.com/p_mbanugo",
       },
