@@ -1,0 +1,36 @@
+---
+title: Welcome to FlyCD
+description: A heroku-style approach to deployment, for your apps hosted on Fly.
+template: splash
+hero:
+  tagline: A git-based deployment platform for your apps, deployed on fly.io.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Get started
+      link: /guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: FlyCD Dashboard
+      link: https://flycd.dev/Dashboard
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Benefits
+
+<CardGrid stagger>
+	<Card title="Git-based continuous deployment" icon="rocket">
+		Effortless continuous deployment without worrying about YAML or optimising build/deploy pipelines.
+	</Card>
+	<Card title="Seamless secrets deploy" icon="puzzle">
+		Easily manage secrets across production & preview apps.
+	</Card>
+	<Card title="Preview app + database" icon="setting">
+		Automatic preview app and preview database management. Each PR gets an app, plus a database if configured.
+	</Card>
+	<Card title="Deployment history & rollback" icon="random">
+		Easily track deployment history and rollback releases without sweat.
+	</Card>
+</CardGrid>
