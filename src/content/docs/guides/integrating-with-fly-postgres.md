@@ -1,5 +1,5 @@
 ---
-title: Integrating a project with fly postgres
+title: Integrate A Project with Fly Postgres Database
 description: A guide about using Fly Postgres for preview & production databases.
 ---
 
