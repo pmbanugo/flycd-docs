@@ -1,6 +1,6 @@
 ---
 title: Integrating a project with fly postgres
-description: A guide about Integrating a project with flycd postgres.
+description: A guide about using Fly Postgres for preview & production databases.
 ---
 
 There are cases you want to connect a project to a Postgres database hosted on Fly. FlyCD can help manage this integration by making sure the production and preview apps are attached to a specific Fly Postgres app/cluster.
