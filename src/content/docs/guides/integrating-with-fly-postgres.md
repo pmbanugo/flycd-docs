@@ -27,4 +27,4 @@ First ensure you have created the Fly Postgres cluster, then follow the steps be
 
 Once the changes are saved, new deployments for the project will use the new settings/configuration.
 
-> The production and preview Postgres app can be the same. Ideally, you’d want to have a development cluster and a separate production cluster. Use the development cluster for all your preview deployment.
+The production and preview Postgres app can be the same. Ideally, you’d want to have a development cluster and a separate production cluster. Use the development cluster for all your preview deployment.
