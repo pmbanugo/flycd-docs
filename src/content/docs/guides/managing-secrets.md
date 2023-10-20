@@ -1,5 +1,5 @@
 ---
-title: Managing Secrets in a project using FlyCD
+title: Manage Project Secrets
 description: A guide about using Fly Secrets for managing encrypted key/value pairs.
 sidebar:
   label: Use Fly Secrets
