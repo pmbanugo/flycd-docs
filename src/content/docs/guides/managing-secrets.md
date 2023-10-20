@@ -1,8 +1,13 @@
 ---
+<<<<<<< HEAD
 title: Manage Project Secrets
 description: A guide about using Fly Secrets for managing encrypted key/value pairs.
 sidebar:
   label: Use Fly Secrets
+=======
+title: Managing Project Secrets
+description: How to manage secrets for a project.
+>>>>>>> b275483 (update files)
 ---
 
 There are two types of secrets your project could make use of:
@@ -47,6 +52,6 @@ Build Config Page
 
 This page is similar to the app’s Secrets page in terms of how it displays and stores secrets. You can add or overwrite existing secrets using the form on the page.
 
-:::note
+:::tip
 There’s no means to delete secrets at the moment. It’s an issue that’s currently in the backlog.
 :::

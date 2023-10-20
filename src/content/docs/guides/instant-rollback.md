@@ -1,8 +1,6 @@
 ---
 title: Instant Rollback
-description: A guide about using Fly Instant Rollback to quickly revert to a previous production release.
-sidebar:
-  label: Use Fly Instant Rollback
+description: How to use Instant Rollback to quickly revert to a previous production release.
 ---
 
 Instant Rollback is a way to quickly revert to a previous production release. This can be useful in situations that require a swift recovery from production incidents, like breaking changes or bugs.
