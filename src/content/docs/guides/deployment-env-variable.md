@@ -1,6 +1,6 @@
 ---
-title: Deploy Env Variable
-description: How to set environmental variable
+title: Deployment Environment Variables
+description: information about FlyCD system environment variables
 ---
 
 FlyCD provides a set of Environment Variables that are automatically set by the system at deploy time, such as the SHA of the Git Commit or the name of the Git commit author. They’re prefixed with `FLYCD_`.
