@@ -21,7 +21,7 @@ You can use different secrets for your production and preview apps. The preview 
 
 You can add or modify secrets for existing apps through the project’s settings page. You can get to this page from the project’s detail page by clicking on the **Project Settings** link at the top navigation, and then clicking the **Secrets** link on the left side navigation.
 
-![A project’s secrets settings page](../../../assets/images/secrets-existing%20app.webp)
+![A project’s secrets settings page](../../../assets/images/secrets-existing-app.webp)
 A project’s secrets settings page
 
 You can add new secrets for production or preview apps via the **Secrets** settings page.
@@ -31,7 +31,7 @@ You also see the list of secrets for the project, and the configured environment
 There’s no separate form to edit/update secrets at the moment. The same form is used to add new secrets or edit existing ones. To change the value of an existing secret, you can add it through the form using the same key, and the value will be overwritten when it’s saved.
 
 :::note
-Updated and newly added secrets will be applied at the next deployment. 
+Updated and newly added secrets will be applied at the next deployment.
 :::
 
 ## Build Secrets
