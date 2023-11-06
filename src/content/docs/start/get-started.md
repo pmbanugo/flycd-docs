@@ -27,7 +27,7 @@ Follow the instructions below to set up your Fly Access Token and connect the Gi
 ![Integration settings page - the GitHub app is linked to your GitHub account/organisation](../../../assets/images/account-integration-connected.webp)
 
 :::note
-Please note that org deployment token will only work for a single organisation. You should use your personal access token if you want to deploy apps to multiple Fly organisations.
+Please note that [organisation deploy token](https://fly.io/docs/flyctl/tokens-create-org/) will only work for a single organisation. You should use your personal access token if you want to deploy apps to multiple Fly organisations.
 :::
 
 ## Set Up A New Project
