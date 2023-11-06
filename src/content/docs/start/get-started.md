@@ -11,8 +11,6 @@ After successful authentication from GitHub, your account should be created and 
 
 ![Account Integration Settings Page](../../../assets/images/account-integration-new.webp)
 
-Account Integration Settings Page
-
 Follow the instructions below to set up your Fly Access Token and connect the GitHub app.
 
 ## Account Integration Settings
@@ -23,12 +21,14 @@ Follow the instructions below to set up your Fly Access Token and connect the Gi
 
 ![github install page.png](../../../assets/images/github-install-page.webp)
 
-1. Back on the _Integration Settings_ page, enter your [Fly.io](http://Fly.io) access token in the input field
+1. Back on the _Integration Settings_ page, enter your [Fly.io](http://Fly.io) access token (or organisation deploy token) in the input field. See the [flyctl docs](https://fly.io/docs/flyctl/tokens-create-org/) for how to create deploy tokens.
 2. Click the _Update_ button to save the data. You should see a pop up that tell you if it was successfully saved.
 
 ![Integration settings page - the GitHub app is linked to your GitHub account/organisation](../../../assets/images/account-integration-connected.webp)
 
-Integration settings page - the GitHub app is linked to your GitHub account/organisation
+:::note
+Please note that org deployment token will only work for a single organisation. You should use your personal access token if you want to deploy apps to multiple Fly organisations.
+:::
 
 ## Set Up A New Project
 
