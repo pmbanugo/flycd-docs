@@ -23,8 +23,3 @@ To initiate an instant rollback:
 ![Rollback dialog](../../../assets/images/rollback-dialog.webp)
 
 3. Click the **Continue** button if you want to proceed. This will trigger an instant rollback event and update the [GitHub deployment](deployment-log.md) status as it progresses.
-
-:::note
-This feature is only available to [premium](pricing.md) users. If you’re on the free plan, the button will be disabled and FlyCD won’t collect information to enable it to perform instant rollback for that project.
-Check out the [pricing page](pricing.md) for information on how to subscribe to the premium plan.
-:::
